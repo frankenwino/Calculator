@@ -49,7 +49,7 @@ namespace Calculator
         public static string Multiply(decimal firstNumber, decimal secondNumber)
         {
             decimal result = firstNumber * secondNumber;
-            string resultString = $"{firstNumber} + {secondNumber} = {result}";
+            string resultString = $"{firstNumber} * {secondNumber} = {result}";
 
             return resultString;
         }
