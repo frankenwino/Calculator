@@ -43,7 +43,7 @@ namespace Calculator
             string lhs = String.Join(" - ", numbers);
             string resultString = $"{lhs} = {result}";
 
-            return resultString;    
+            return resultString;
         }
 
         public static string Multiply(decimal firstNumber, decimal secondNumber)
@@ -67,11 +67,7 @@ namespace Calculator
                 resultString = $"DivideByZeroException caught: {ex.Message}";
             }
 
-
             return resultString;
-
         }
-
     }
 }
-
